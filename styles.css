@@ -1,9 +1,19 @@
 .d-flex {
   display: flex;
+  justify-content: space-between;
 }
+
+.image-item {
+  flex: 1;
+}
+.image-item img{
+  width: 100%;
+}
+
 
 ul, p, div {
   border: dotted 1px black;
   padding: 10px;
   margin: 10px;
+  box-sizing: border-box;
 }
